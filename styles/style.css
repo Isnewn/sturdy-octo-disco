@@ -1,0 +1,53 @@
+#my-id，
+.my-class，
+img[src]，
+a:hover{
+}
+
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family:
+    "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+}
+
+html{
+	background-color:#75abcc;
+}
+
+
+body{
+	width:600px;/*这迫使身体始终是600像素宽。 */
+	margin:0 auto;/*您在类似或类似的属性上设置两个值时padding，第一个值会影响元素的顶部和底部（0在这种情况下将其设置为）；第二个值会影响左侧和右侧。 （这里auto是一个特殊的值，将可用的水平空间均匀地划分为左右之间）*/
+	background-color:#ff9500;/*这设置了元素的背景颜色。该项目对身体背景颜色使用红色的橙色 */
+	padding:0 20px 20px 20px;/*这为填充设置了四个值。目的是在内容周围留出一些空间。在此示例中，身体顶部没有填充物，右侧，底部和左侧没有20个像素。值以该顺序设置顶部，右，底部，左，左，左侧。 */
+	border:5px solid black;/*这设置了边框的宽度，样式和颜色的值。在这种情况下，它在身体的各个侧面都是五像素宽的黑色边框。 */
+	
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h1{
+	margin:0;
+	padding:20px 0;
+	color:#00539f;
+	text-shadow:3px 3px 5px black;/*第一个像素值从文本中设置了阴影的水平偏移：它跨越了多远。第二像素值从文本中设置了阴影的垂直偏移：它向下移动多远。第三个像素值设置了阴影的模糊半径。更大的价值会产生更模糊的阴影。第四个值设置了阴影的基础颜色。*/
+}
+
+
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img{
+	display:block;
+	margin:0 auto;
+	max-width:100%;
+}
